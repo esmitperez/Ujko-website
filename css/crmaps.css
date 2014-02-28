@@ -1,0 +1,95 @@
+/*
+Autor: Esmit Pérez
+Twitter: @esmitperez
+Fecha: Jun 2013
+
+Copyright (c) 2013 Esmit Pérez (@esmiterez)
+http://www.apache.org/licenses/LICENSE-2.0
+*/
+
+
+@import url(http://fonts.googleapis.com/css?family=Average+Sans|Alef);
+
+.ujko-canvas {
+	fill: #A9CFFF;
+}
+
+path[data-prov="1"] {
+	fill: #808080;
+}
+
+path[data-prov="2"] {
+	fill: #d4aa00;
+}
+
+path[data-prov="3"] {
+	fill: #ffff81;
+}
+
+path[data-prov="4"] {
+	fill: #672178 ;
+}
+
+path[data-prov="5"] {
+	fill: #008000;
+}
+
+path[data-prov="6"] {
+	fill: #aa0000;
+}
+
+path[data-prov="7"] {
+	fill: #759400;
+}
+
+.isla_coco {
+	fill: #3987c9;
+	stroke:black;
+	stroke-width:20;
+	stroke-opacity:1;
+	fill-rule:evenodd;
+
+}
+
+.distrito {
+	/*fill: #000;*/
+	fill-opacity: 1;
+	stroke:#DADADA;
+	stroke-width:15;
+	stroke-opacity:1;
+	fill-rule:evenodd;
+}
+
+.canton_hover {
+	fill: cornflowerblue;
+	stroke:1px;
+}
+
+svg.CRMap {
+            -moz-border-radius: 3px;
+            -webkit-border-radius: 3px;
+            background: #A9CFCF;
+            border-radius: 3px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            margin-top: auto;
+            margin-bottom: auto;
+            -moz-box-shadow:0 0 10px 5px #A9CFFF;
+            -webkit-box-shadow:0 0 5px 10px #A9CFFF;
+            box-shadow:0 0 10px 5px #A9CFFF;
+        }
+
+
+text
+{
+	font-family: 'Average Sans', sans-serif;
+	font-size:0.3rem;
+	fill:yellow;
+	text-anchor:middle;
+	pointer-events:none;
+	dominant-baseline:middle;
+	baseline-shift=-30%;
+	visibility:hidden;
+ }
+
